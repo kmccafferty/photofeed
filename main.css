@@ -21,15 +21,18 @@ h1 {
 
 header {
 	padding:20px;
-	background-color:#0D9EA6;
-	color:white;
+	background-color:white;
+	color: #262625;
 	margin: 0 20px;
-	border-bottom: 4px solid #FFBF75;
 }
 
 header p {
+	padding-top:5px;
+	padding-bottom:5px;
 	font-family: 'Open Sans';
 	font-size:.8em;
+	border-top: 1px solid #7D7D7A;
+	border-bottom: 1px solid #7D7D7A;
 }
 
 /************************************
@@ -39,7 +42,8 @@ Gallery Styles
 #gallery {
 	list-style: none;
 	padding:20px;
-	background-color:#BDBDBD;
+	/*background-color:#262625;*/
+	background-color:white;
 	display:flex;
 	flex-direction: row;
 	flex-wrap: wrap;
@@ -53,17 +57,18 @@ Gallery Styles
 li {
 	padding:10px;
 	background-color:white;
-	border-radius:5%;
-	margin:5px;
+	/*border-radius:5%;*/
+	margin:2px;
 	max-width:220px;
-	transition: .7s;
+	transition: .2s;
+	/*border: 2px solid #7D7D7A;*/
 }
 
 li img {
 	margin: 0 auto;
 	flex: 2 2 20em;
 	width:200px;
-	border-radius: 10%;
+	/*border-radius: 10%;*/
 }
 
 li p {
@@ -75,7 +80,7 @@ li p {
 
 
 li:hover{
-	transform: scale(1.5);
+	transform: scale(1.75);
 }
 
 
